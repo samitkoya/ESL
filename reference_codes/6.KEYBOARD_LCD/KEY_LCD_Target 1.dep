@@ -1,0 +1,25 @@
+Dependencies for Project 'KEY_LCD', Target 'Target 1': (DO NOT MODIFY !)
+F (.\AN_LCD.c)(0x5A7AB521)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\NXP\LPC17xx-o .\an_lcd.o --omf_browse .\an_lcd.crf --depend .\an_lcd.d)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x532C1734)
+I (C:\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+I (AN_LCD.h)(0x543373D4)
+F (.\KEY_PAD.c)(0x5A81263E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\NXP\LPC17xx-o .\key_pad.o --omf_browse .\key_pad.crf --depend .\key_pad.d)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C1734)
+I (C:\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+I (AN_LCD.h)(0x543373D4)
+F (C:\Keil4\ARM\Startup\NXP\LPC17xx\system_LPC17xx.c)(0x5A754023)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\NXP\LPC17xx-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C1734)
+I (C:\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+F (C:\Keil4\ARM\Startup\NXP\LPC17xx\startup_LPC17xx.s)(0x532C1658)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\NXP\LPC17xx--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)

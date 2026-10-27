@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\spi.o"
+"..\10relay_led_buz\start.lib"
+".\uart0.o"
+".\temp.o"
+--strict --scatter ".\spi_temp.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\spi_temp.map" -o .\spi_temp.axf

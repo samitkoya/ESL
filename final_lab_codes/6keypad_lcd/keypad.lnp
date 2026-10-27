@@ -1,0 +1,7 @@
+--cpu Cortex-M3
+".\start.lib"
+".\key_pad.o"
+--strict --scatter ".\keypad.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\keypad.map" -o .\keypad.axf

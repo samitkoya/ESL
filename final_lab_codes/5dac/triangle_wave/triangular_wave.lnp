@@ -1,0 +1,7 @@
+--cpu Cortex-M3
+".\start.lib"
+".\triangular.o"
+--strict --scatter ".\triangular_wave.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\triangular_wave.map" -o .\triangular_wave.axf

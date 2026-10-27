@@ -1,0 +1,18 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\BEERAPPA\WORKING_FOLDER\ALS-SDA-ARMCTXM3-06\ALS-SDA-ARMCTXM3-06_24sept_17\SOFTWARES - Copy\10buzz_relay_led\RELAY.uvproj
+Project File Date:  02/06/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling Relay.c...
+Relay.c(44): warning:  #1-D: last line of file ends without a newline
+compiling system_LPC17xx.c...
+linking...
+Program Size: Code=1300 RO-data=284 RW-data=4 ZI-data=612  
+FromELF: creating hex file...
+"RELAY.axf" - 0 Error(s), 1 Warning(s).

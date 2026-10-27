@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\relay.o"
+".\system_lpc17xx.o"
+--strict --scatter ".\RELAY.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RELAY.map" -o .\RELAY.axf

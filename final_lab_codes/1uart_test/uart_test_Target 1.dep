@@ -1,0 +1,9 @@
+Dependencies for Project 'uart_test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\uart0_test.c)(0x63130412)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\NXP\LPC17xx-o .\uart0_test.o --omf_browse .\uart0_test.crf --depend .\uart0_test.d)
+I (D:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C1734)
+I (D:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (D:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (D:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (D:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+F (.\start.lib)(0x5A5DDD18)()

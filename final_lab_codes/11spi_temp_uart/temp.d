@@ -1,0 +1,10 @@
+.\temp.o: ..\..\reference_codes\11.SPI_TEMPERATURE_SENSOR\temp.c
+.\temp.o: C:\Keil4\ARM\Inc\NXP\LPC17xx\LPC17xx.h
+.\temp.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+.\temp.o: C:\Keil4\ARM\ARMCC\bin\..\include\stdint.h
+.\temp.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+.\temp.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+.\temp.o: C:\Keil4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\temp.o: C:\Keil4\ARM\ARMCC\bin\..\include\stdio.h
+.\temp.o: ..\..\reference_codes\11.SPI_TEMPERATURE_SENSOR\UART0.h
+.\temp.o: ..\..\reference_codes\11.SPI_TEMPERATURE_SENSOR\SPI.h

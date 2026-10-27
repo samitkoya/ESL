@@ -1,0 +1,48 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000                 AREA             MUL , CODE , READONLY
+    3 00000000                 EXPORT           MULTIPLY
+    4 00000000         
+    5 00000000         MULTIPLY
+    6 00000000         
+    7 00000000 F247 006F       LDR              R0,=0X706F
+    8 00000004 F240 1161       LDR              R1,=0X0161
+    9 00000008 FB01 F200       MUL              R2,R1,R0
+   10 0000000C BF00            NOP
+   11 0000000E BF00            NOP
+   12 00000010 4770            BX               LR          ; jumps back to C c
+                                                            ode
+   13 00000012         
+   14 00000012                 END
+Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=mul.d -o
+mul.o -IC:\Keil4\ARM\CMSIS\Include -IC:\Keil4\ARM\INC\NXP\LPC17xx --predefine="
+__EVAL SETA 1" --list=mul.lst mul.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MUL 00000000
+
+Symbol: MUL
+   Definitions
+      At line 2 in file mul.s
+   Uses
+      None
+Comment: MUL unused
+MULTIPLY 00000000
+
+Symbol: MULTIPLY
+   Definitions
+      At line 5 in file mul.s
+   Uses
+      At line 3 in file mul.s
+Comment: MULTIPLY used once
+2 symbols
+326 symbols in table

@@ -1,0 +1,7 @@
+--cpu Cortex-M3
+".\start.lib"
+".\stpper.o"
+--strict --scatter ".\step.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\step.map" -o .\step.axf

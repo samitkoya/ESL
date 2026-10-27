@@ -1,0 +1,7 @@
+--cpu Cortex-M3
+".\start.lib"
+".\sinewave.o"
+--strict --scatter ".\sine_wave.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\sine_wave.map" -o .\sine_wave.axf

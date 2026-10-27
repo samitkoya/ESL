@@ -1,0 +1,72 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000                 AREA             MULTI , CODE , READONLY
+    3 00000000                 EXPORT           MULTIPLY
+    4 00000000                 IMPORT           globvar
+    5 00000000         
+    6 00000000         MULTIPLY
+    7 00000000         
+    8 00000000 F247 006F       LDR              R0,=0X706F
+    9 00000004 F247 1161       LDR              R1,=0X7161
+   10 00000008 FB01 F200       MUL              R2,R1,R0
+   11 0000000C         
+   12 0000000C         
+   13 0000000C 4613            MOV              R3,R2       ;
+   14 0000000E 4B02            LDR              R3,=globvar ; load the addr of 
+                                                            var into R0
+   15 00000010 601A            STR              R2,[R3]
+   16 00000012 BF00            NOP
+   17 00000014 BF00            NOP
+   18 00000016 4770            BX               LR          ; jumps back to C c
+                                                            ode
+   19 00000018         
+   20 00000018                 END
+              00000000 
+Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\multi.
+d -o.\multi.o -IC:\Keil4\ARM\RV31\INC -IC:\Keil4\ARM\CMSIS\Include -IC:\Keil4\A
+RM\Inc\NXP\LPC17xx --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" 
+--list=.\multi.lst multi.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MULTI 00000000
+
+Symbol: MULTI
+   Definitions
+      At line 2 in file multi.s
+   Uses
+      None
+Comment: MULTI unused
+MULTIPLY 00000000
+
+Symbol: MULTIPLY
+   Definitions
+      At line 6 in file multi.s
+   Uses
+      At line 3 in file multi.s
+Comment: MULTIPLY used once
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+globvar 00000000
+
+Symbol: globvar
+   Definitions
+      At line 4 in file multi.s
+   Uses
+      At line 14 in file multi.s
+Comment: globvar used once
+1 symbol
+337 symbols in table

@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\uart0_test.o"
+".\system_lpc17xx.o"
+--library_type=microlib --strict --scatter ".\uart0_test.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\uart0_test.map" -o .\uart0_test.axf

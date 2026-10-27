@@ -1,0 +1,7 @@
+--cpu Cortex-M3
+".\start.lib"
+".\square.o"
+--strict --scatter ".\square_wave.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\square_wave.map" -o .\square_wave.axf

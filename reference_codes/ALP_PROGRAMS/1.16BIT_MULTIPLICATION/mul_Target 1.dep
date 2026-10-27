@@ -1,0 +1,28 @@
+Dependencies for Project 'mul', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x4DA52568)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\NXP\LPC17xx--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (C:\Keil4\ARM\Startup\NXP\LPC17xx\system_LPC17xx.c)(0x5A41E916)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\NXP\LPC17xx-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C1734)
+I (C:\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+F (.\mul.c)(0x5A460797)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\NXP\LPC17xx-o .\mul.o --omf_browse .\mul.crf --depend .\mul.d)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C1734)
+I (C:\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+I (LCD.h)(0x59F6C575)
+F (.\multi.s)(0x59F6CC45)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\NXP\LPC17xx--list .\multi.lst --xref -o .\multi.o --depend .\multi.d)
+F (.\LCD.c)(0x5A4607B7)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\NXP\LPC17xx-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x532C1734)
+I (C:\Keil4\ARM\CMSIS\Include\core_cm3.h)(0x532C1AEA)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C1AEA)
+I (C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C1AEA)
+I (C:\Keil4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C1734)
+I (LCD.h)(0x59F6C575)
+I (libs.h)(0x53E4555A)
+F (.\LCD.h)(0x59F6C575)()

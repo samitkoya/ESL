@@ -1,0 +1,7 @@
+--cpu Cortex-M3
+".\start.lib"
+".\dcm1.o"
+--strict --scatter ".\dcm_dir.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\dcm_dir.map" -o .\dcm_dir.axf

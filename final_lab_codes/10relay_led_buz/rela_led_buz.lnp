@@ -1,0 +1,7 @@
+--cpu Cortex-M3
+".\start.lib"
+".\relay.o"
+--strict --scatter ".\rela_led_buz.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rela_led_buz.map" -o .\rela_led_buz.axf

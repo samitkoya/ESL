@@ -1,0 +1,1 @@
+.\sumten.o: sumten.s

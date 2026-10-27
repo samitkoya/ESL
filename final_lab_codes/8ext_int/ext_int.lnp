@@ -1,0 +1,7 @@
+--cpu Cortex-M3
+".\start.lib"
+".\exint.o"
+--strict --scatter ".\ext_int.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\ext_int.map" -o .\ext_int.axf
