@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\an_lcd.o"
+".\key_pad.o"
+".\system_lpc17xx.o"
+".\startup_lpc17xx.o"
+--strict --scatter ".\KEY_LCD.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\KEY_LCD.map" -o .\KEY_LCD.axf

@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'INT_ADC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"int_adc.o"'
+### List of Objects: adding '"an_lcd.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "int_adc.o" "an_lcd.o" "system_lpc17xx.o" --library_type=microlib --strict --scatter "INT_ADC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\INT_ADC.map" -o "INT_ADC.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'INT_ADC.axf'
+### ADS-LD Command File: 'INT_ADC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'INT_ADC.lnp', Handle=0x0000018C
+### Writing '.lnp' file
+### ADS-LD Command file 'INT_ADC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

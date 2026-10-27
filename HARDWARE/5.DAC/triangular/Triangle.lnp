@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\triangular.o"
+".\system_lpc17xx.o"
+--strict --scatter ".\Triangle.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Triangle.map" -o .\Triangle.axf

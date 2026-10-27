@@ -1,0 +1,18 @@
+ AREA aa,CODE,READONLY
+ ENTRY
+ LDR R0, = 0x00000002;
+ LDR R1, = 0x00000002;
+
+ //1ST METHOD
+ TEQ R0,R1 ;  (Test Equivalence) performs a bitwise Exclusive OR (XOR) operation between R0 and R1, updates flag
+ MOVEQ R2,#0x01;; moves the hexadecimal value 0x01 into register R2 only if the Z (Zero) flag is set to 1
+
+ //2ND METHOD
+ EOR R3,R0,R1
+ MOVGQ R4,#0x01;
+
+ //3RD
+ SUBS R5,R0,R1
+ MOVEQ R6,#0x01;
+STOP B STOP
+ END

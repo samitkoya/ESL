@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\int_adc.o"
+".\an_lcd.o"
+".\system_lpc17xx.o"
+--library_type=microlib --strict --scatter ".\INT_ADC.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\INT_ADC.map" -o .\INT_ADC.axf
